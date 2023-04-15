@@ -3,7 +3,6 @@ package com.bids.effecti.model;
 import lombok.Data;
 
 import javax.xml.bind.annotation.XmlRootElement;
-import java.util.Date;
 
 @Data
 @XmlRootElement

@@ -1,10 +1,6 @@
 package com.bids.effecti.controller;
 
-import com.bids.effecti.dto.EmployerCreateOrUpdateDTO;
-import com.bids.effecti.dto.EmployerDTO;
 import com.bids.effecti.dto.SendEmailDTO;
-import com.bids.effecti.entity.SendEmail;
-import com.bids.effecti.model.EmailProperties;
 import com.bids.effecti.rest.AgrolandiaRest;
 import com.bids.effecti.service.SendEmailService;
 import com.bids.effecti.util.Converter;
@@ -16,7 +12,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.view.RedirectView;
 import springfox.documentation.annotations.ApiIgnore;
 
-import javax.validation.Valid;
 import java.util.Collections;
 import java.util.List;
 

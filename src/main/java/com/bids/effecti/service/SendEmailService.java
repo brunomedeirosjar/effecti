@@ -2,7 +2,6 @@ package com.bids.effecti.service;
 
 import com.bids.effecti.entity.SendEmail;
 import com.bids.effecti.model.Channel;
-import com.bids.effecti.model.EmailProperties;
 
 import java.util.List;
 

@@ -13,7 +13,6 @@ import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 
-import javax.servlet.ServletContext;
 import java.util.List;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
@@ -27,8 +26,6 @@ public class SendEmailServiceImpl implements SendEmailService {
     private JavaMailSender javaMailSender;
     @Autowired
     private EmployerRepository employerRepository;
-    @Autowired
-    private ServletContext servletContext;
 
 
     Logger logger = Logger.getLogger(String.valueOf(SendEmailServiceImpl.class));
@@ -62,7 +59,7 @@ public class SendEmailServiceImpl implements SendEmailService {
                 }
             }
         }
-        if (isSend == null){
+        if (isSend == null) {
             isSend = "Não foi localizado empragador/licitações disponiveis pra envio.";
         }
         return isSend;

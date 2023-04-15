@@ -25,5 +25,4 @@ public class Employer {
     private String email;
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, mappedBy = "employer")
     private List<SendEmail> sendEmail;
-
 }
