@@ -28,7 +28,7 @@ public class SwaggerConfig {
                 .title("Public Tenders API Documentation")
                 .description("Documentação da API de Licitações Públicas")
                 .version("1.0")
-                .contact(new Contact("Bruno S M", "https://github.com/brunomedeirosjar/PMS.git", "bruno.silva.medeiros.1@gmail.com"))
+                .contact(new Contact("GitHub", "https://github.com/brunomedeirosjar/effecti", "bruno.silva.medeiros.1@gmail.com"))
                 .build();
     }
 }
